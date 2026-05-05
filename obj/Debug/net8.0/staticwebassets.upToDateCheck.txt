@@ -1,3 +1,0 @@
-wwwroot\assets\index-IeNcdDMU.js
-wwwroot\assets\index-MHN-0Pmn.css
-wwwroot\index.html
