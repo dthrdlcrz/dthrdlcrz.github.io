@@ -34,8 +34,8 @@ const projects = [
     {
         num: '05',
         name: 'UI Automation for Engineering Workflows',
-        desc: 'Automation system built in C# to streamline repetitive engineering processes. Automated end-to-end workflows including data input, processing, and report generation — reducing manual intervention, minimizing human error, and improving turnaround time for engineering analysis.',
-        tags: ['C#', 'UiPath Studio', 'UiPath Robots'],
+        desc: 'Automation system built in UiPath Studio (C#) to streamline repetitive engineering processes. Automated end-to-end workflows including data input, processing, and report generation — reducing manual intervention, minimizing human error, and improving turnaround time for engineering analysis.',
+        tags: ['C#', 'Excel Automation', 'UI Automation'],
         private: true,
     },
 ]
