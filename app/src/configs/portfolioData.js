@@ -90,15 +90,15 @@ export const skillGroups = [
   },
   {
     title: 'Web Development',
-    items: ['ASP.NET / WebForms', 'HTML / CSS / Bootstrap', 'JavaScript / jQuery', 'React', 'Node.js / Express.js'],
+      items: ['ASP.NET Core MVC / WebForms', 'HTML / CSS / Bootstrap', 'JavaScript / jQuery', 'React', 'Node.js / Express.js'],
   },
   {
     title: 'Tools & Platforms',
-    items: ['Microsoft Visual Studio', 'Embarcadero RAD Studio', 'Jira / Bitbucket / GitHub', 'MS SQL / MySQL'],
+    items: ['UiPath Studio · Robots · Assistant', 'Microsoft Visual Studio', 'Embarcadero RAD Studio', 'Jira / Bitbucket / GitHub', 'MS SQL / MySQL'],
   },
   {
     title: 'Concepts',
-    items: ['UiPath Studio · Robots · Assistant', 'OOP & Design Patterns', 'Agile / Scrum', 'API Integration', 'Team Leadership'],
+      items: ['Automation', 'OOP & Design Patterns', 'Entity Framework Core', 'Agile / Scrum', 'API Integration', 'Team Leadership'],
   },
 ]
 
@@ -116,6 +116,7 @@ export const certGroups = [
     items: [
       { name: 'The Complete Web Development Bootcamp' },
       { name: 'Complete Modern PHP Developer Course 2023' },
+      { name: 'Bulky Web using ASP.NET Core MVC, Entity Framework Core and ASP.NET Identity' },
     ],
   },
   {
