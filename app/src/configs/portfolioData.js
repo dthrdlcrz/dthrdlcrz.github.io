@@ -49,14 +49,14 @@ export const projects = [
   {
     num: '01',
     name: 'Distribution System Analysis Software (DSAS)',
-    desc: 'Comprehensive power system analysis platform used by electric cooperatives and distribution utilities. Includes modules for load flow, loss segregation, reliability analysis, and short circuit studies. Maintained and enhanced the legacy codebase to ensure stability, improved computational accuracy, and delivered continuous patch updates for production deployments.',
+    desc: 'Comprehensive power system analysis platform used by electric cooperatives and distribution utilities. Includes modules for loss segregation, reliability analysis, and short circuit studies. Maintained and enhanced the legacy codebase to ensure stability, improved computational accuracy, and delivered continuous patch updates for production deployments.',
     tags: ['C++', 'Embarcadero RAD Studio', 'Power Systems'],
     private: true,
   },
   {
     num: '02',
     name: 'Distribution Planning and Operations Software (DPOS)',
-    desc: 'Next-generation platform built from the ground up to support advanced planning and operational analysis for distribution utilities. Designed to replace legacy systems with a scalable, maintainable architecture integrating multiple engineering analysis modules — including forecasting, simulation, and decision support.',
+    desc: 'Power distribution planning and operations software designed to support utilities in technical studies such as load forecasting, line and transformer sizing, substation expansion planning, optimal routing, MVAR mile optimization, and rate analysis. Developed to assist in evaluating distribution system requirements and planning decisions.',
     tags: ['C++', 'Embarcadero RAD Studio', 'Power Systems'],
     private: true,
   },
