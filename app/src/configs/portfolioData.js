@@ -18,6 +18,7 @@ export const aboutText = [
   "I'm a results-driven Lead Software Developer with 2+ years of experience specializing in .NET development, automation, and full-stack web applications.",
   "At PowerSolv Incorporated, I lead the full migration of legacy C++ systems to modern C# architecture, build automation tools for engineering workflows, and mentor junior developers — all within an Agile/Scrum environment. Currently advancing toward the UiPath Automation Developer Professional certification.",
   "I'm actively seeking roles in software development, .NET, web, or automation — where I can apply my expertise in C#, ASP.NET, and process automation to build reliable and impactful solutions.",
+  "I get lesser prices by keeping up with updated vouchers and sales.",
 ]
 
 export const aboutInfo = [
