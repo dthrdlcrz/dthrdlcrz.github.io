@@ -15,9 +15,9 @@ export const stats = [
 ]
 
 export const aboutText = [
-  "I'm a results-driven Lead Software Developer with 2+ years of experience specializing in .NET development, UI automation, and full-stack web applications.",
-  "At PowerSolv Incorporated, I lead the full migration of legacy C++ systems to modern C# architecture, build UI automation tools for engineering workflows, and mentor junior developers — all within an Agile/Scrum environment. Currently advancing toward the UiPath Automation Developer Professional certification.",
-  "I'm currently targeting roles in .NET development and automation/RPA, where I can apply my skills in C#, ASP.NET, and process automation to solve real engineering problems.",
+  "I'm a results-driven Lead Software Developer with 2+ years of experience specializing in .NET development, automation, and full-stack web applications.",
+  "At PowerSolv Incorporated, I lead the full migration of legacy C++ systems to modern C# architecture, build automation tools for engineering workflows, and mentor junior developers — all within an Agile/Scrum environment. Currently advancing toward the UiPath Automation Developer Professional certification.",
+  "I'm actively seeking roles in software development, .NET, web, or automation — where I can apply my expertise in C#, ASP.NET, and process automation to build reliable and impactful solutions.",
 ]
 
 export const aboutInfo = [
@@ -33,15 +33,15 @@ export const experiences = [
     period: 'May 2024 – Present',
     company: 'PowerSolv Incorporated',
     title: 'Lead Software Developer',
-    desc: 'Leading the full migration of legacy C++ software to modern C# architecture in Visual Studio. Implemented Jira and Bitbucket for task management and version control, and introduced Agile/Scrum standups to improve team alignment. As sole developer, modernized legacy VB.NET/ASP.NET WebForms applications — refactored outdated codebases, migrated legacy databases, and rebuilt UIs into cleaner, more maintainable designs. Also mentoring junior developers and providing technical support for end-users.',
-    tags: ['C# / .NET', 'ASP.NET WebForms', 'VB.NET', 'MS SQL', 'Jira', 'Bitbucket', 'Agile / Scrum', 'Team Leadership'],
+    desc: 'Leading the full migration of legacy C++ software to modern C# architecture in Visual Studio.  Took initiative in implementing Jira and Bitbucket for task management and version control, and introduced Agile/Scrum standups to improve team alignment and transparency. Maintained and enhanced legacy VB.NET/ASP.NET WebForms applications — resolved bugs, refactored outdated codebases, and improved UI consistency. Applied multi-threading to the newly migrated C# systems to further improve performance and responsiveness. Also mentoring junior developers and providing technical support for end-users.',
+    tags: ['C# / .NET', 'C++', 'ASP.NET WebForms', 'VB.NET', 'MS SQL Server', 'Jira', 'Git / Bitbucket', 'Agile / Scrum', 'Embarcadero RAD Studio', 'Power System Applications', 'Team Leadership'],
   },
   {
     period: 'Oct 2023 – May 2024',
     company: 'PowerSolv Incorporated',
     title: 'Junior Software Developer',
-    desc: 'Designed and developed power system applications using C++ and Embarcadero RAD Studio. Sole developer on a full modernization of a legacy web-based app using VB.NET, ASP.NET, and MS SQL — refactored core logic from single-threaded to multi-threaded, delivering significantly faster performance and a cleaner user experience.',
-    tags: ['C++', 'ASP.NET', 'VB.NET', 'MS SQL', 'Embarcadero IDE'],
+    desc: 'Designed and developed power system applications (DSAS and DPOS) using C++ and Embarcadero RAD Studio. Served as sole developer on the full modernization of the DSAS web-based application using VB.NET, ASP.NET, and MS SQL — refactored the core logic from single-threaded to multi-threaded processing, resulting in significantly faster performance and a more responsive user experience.',
+    tags: ['C++', 'ASP.NET WebForms', 'VB.NET', 'MS SQL Server', 'Trello', 'Embarcadero RAD Studio', 'Power System Applications'],
   },
 ]
 
