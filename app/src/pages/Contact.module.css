@@ -1,0 +1,55 @@
+.section {
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+}
+
+.section {
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+}
+
+.inner {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .inner .section-title {
+        margin-bottom: 1rem;
+    }
+
+.sub {
+    color: var(--text2);
+    font-size: 15px;
+    margin-bottom: 3rem;
+    font-weight: 300;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.6rem 1.25rem;
+    border: 1px solid var(--border);
+    color: var(--text2);
+    text-decoration: none;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    border-radius: 999px;
+    background: var(--surface-elevated);
+    transition: all 0.2s;
+}
+
+    .link:hover {
+        border-color: var(--accent2);
+        color: var(--accent);
+    }

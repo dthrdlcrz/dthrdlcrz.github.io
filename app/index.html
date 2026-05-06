@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diether Garcia Dela Cruz</title>
+    <meta name="description" content="Portfolio of Diether Garcia Dela Cruz - Software Engineer specializing in modern web development." />
+    <meta name="keywords" content="Diether Garcia Dela Cruz, Software Engineer, Web Developer, Portfolio, React, ASP.NET Core" />
+    <meta name="author" content="Diether Garcia Dela Cruz" />
+
+    <!-- Open Graph / LinkedIn / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Diether Garcia Dela Cruz | Software Engineer" />
+    <meta property="og:description" content="Software Engineer specializing in modern web development and building impactful solutions." />
+    <meta property="og:image" content="/og-image.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Diether Garcia Dela Cruz | Software Engineer" />
+    <meta property="twitter:description" content="Software Engineer specializing in modern web development and building impactful solutions." />
+    <meta property="twitter:image" content="/og-image.png" />
+
+    <script>
+      (function () {
+        const saved = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = saved === 'light' || saved === 'dark' ? saved : (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

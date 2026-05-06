@@ -1,0 +1,56 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.group {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    padding: 2rem;
+    box-shadow: var(--shadow-soft);
+}
+
+.groupTitle {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--accent2);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.item {
+    font-size: 13px;
+    color: var(--text2);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+    .item::before {
+        content: '—';
+        color: var(--text3);
+        font-size: 10px;
+        flex-shrink: 0;
+        margin-top: 4px;
+    }
+
+.badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--accent2);
+    letter-spacing: 0.05em;
+    border: 1px solid var(--accent2);
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    opacity: 0.8;
+    flex-shrink: 0;
+}
