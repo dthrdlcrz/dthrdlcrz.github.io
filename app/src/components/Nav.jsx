@@ -28,7 +28,8 @@ export default function Nav() {
       const sections = document.querySelectorAll('section[id]')
       let current = ''
       sections.forEach(section => {
-        if (window.scrollY >= section.offsetTop - 120) {
+        const sectionMiddle = section.offsetTop - window.innerHeight / 2
+        if (window.scrollY >= sectionMiddle) {
           current = section.id
         }
       })
