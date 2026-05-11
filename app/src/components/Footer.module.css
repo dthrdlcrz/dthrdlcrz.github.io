@@ -1,0 +1,9 @@
+.footer {
+    padding: 2rem;
+    text-align: center;
+    border-top: 1px solid var(--border);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--text3);
+    letter-spacing: 0.08em;
+}

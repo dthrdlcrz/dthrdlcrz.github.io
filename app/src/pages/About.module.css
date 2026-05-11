@@ -1,0 +1,53 @@
+.about {
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.text {
+    font-size: 16px;
+    color: var(--text2);
+    line-height: 1.8;
+}
+
+    .text p {
+        margin-bottom: 1rem;
+    }
+
+.infoList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.infoItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.infoLabel {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--text3);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.infoVal {
+    font-size: 14px;
+    color: var(--text);
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
