@@ -1,4 +1,4 @@
-// src/data/portfolioData.js
+// src/configs/portfolioData.js
 // Edit this file to update your portfolio without touching components
 
 export const roles = [
@@ -17,14 +17,14 @@ export const stats = [
 export const aboutText = [
   "I'm a results-driven Lead Software Developer with 2+ years of experience specializing in .NET development, automation, and full-stack web applications.",
   "At PowerSolv Incorporated, I lead the full migration of legacy C++ systems to modern C# architecture, build automation tools for engineering workflows, and mentor junior developers — all within an Agile/Scrum environment. Currently advancing toward the UiPath Automation Developer Professional certification.",
-  "I'm actively seeking roles in software development, .NET, web, or automation — where I can apply my expertise in C#, ASP.NET, and process automation to build reliable and impactful solutions.",
+  "I'm actively seeking roles in software development, .NET, automation/RPA, or web development — where I can apply my expertise in C#, ASP.NET, UiPath, and full-stack development to build reliable, maintainable, and impactful solutions.",
 ]
 
 export const aboutInfo = [
   { label: 'Location', value: 'Santa Maria, Bulacan, PH' },
   { label: 'Role', value: 'Lead Software Developer' },
   { label: 'Education', value: 'BS Computer Engineering — Magna Cum Laude' },
-  { label: 'Target Roles', value: '.NET Developer · Automation Developer · RPA Developer' },
+  { label: 'Target Roles', value: '.NET Developer · Web Developer · Automation/RPA Developer' },
   { label: 'Status', value: 'Open to opportunities', green: true },
 ]
 
@@ -90,15 +90,15 @@ export const skillGroups = [
   },
   {
     title: 'Web Development',
-      items: ['ASP.NET Core MVC / WebForms', 'HTML / CSS / Bootstrap', 'JavaScript / jQuery', 'React', 'Node.js / Express.js'],
+      items: ['ASP.NET Core MVC / WebForms', 'Entity Framework Core', 'HTML / CSS / Bootstrap', 'JavaScript / jQuery', 'React', 'Node.js / Express.js'],
   },
   {
     title: 'Tools & Platforms',
-    items: ['UiPath Studio · Robots · Assistant', 'Microsoft Visual Studio', 'Embarcadero RAD Studio', 'Jira / Bitbucket / GitHub', 'MS SQL / MySQL'],
+    items: ['Microsoft Visual Studio', 'Embarcadero RAD Studio', 'Jira / Bitbucket / GitHub', 'MS SQL / MySQL', 'Git / GitHub Actions', 'Vercel'],
   },
   {
     title: 'Concepts',
-      items: ['Automation', 'OOP & Design Patterns', 'Entity Framework Core', 'Agile / Scrum', 'API Integration', 'Team Leadership'],
+      items: ['Automation', 'OOP & Design Patterns', 'Agile / Scrum', 'API Integration', 'Team Leadership'],
   },
 ]
 
